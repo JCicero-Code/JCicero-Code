@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+Este projeto se refere apenas ao exercíceio do curso de programação.
 <!--
 **JCicero-Code/JCicero-Code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
