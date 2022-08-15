@@ -14,8 +14,7 @@ Tecnologias que utilizo
   <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   
   <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
- 
-<img align="center" alt="react" src="https://img.shields.io/badge/php-20232A?style=for-the-badge&logo=Php&logoColor=61DAFB" />
+
     
     
   </div>
@@ -27,6 +26,10 @@ Tecnologias que utilizo
 
 
 <img align="center" alt="react" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=React&logoColor=61DAFB" />
+
+<img align="center" alt="react" src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge&logo=React&logoColor=61DAFB" />
+
+
 
  </div>
 
