@@ -14,6 +14,9 @@ Tecnologias que utilizo
   <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   
   <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
+  
+    <img align="center" alt="php" src="https://img.shields.io/badge/PHP-20232A?style=for-the-badge&logo=php&logoColor=61DAFB" />
+    
   </div>
   
   <div style="display: inline_block">
