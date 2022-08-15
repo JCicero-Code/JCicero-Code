@@ -16,7 +16,7 @@ Tecnologias que utilizo
   <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
   </div>
   
-  div style="display: inline_block">
+  <div style="display: inline_block">
  Estudando....
  <br/>
 <img align="center" alt="nodejs" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
