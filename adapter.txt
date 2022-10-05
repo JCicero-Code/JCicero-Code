@@ -1,0 +1,29 @@
+class Pato {
+    somQuackQuack () {
+        console.log('Quack Quack!');
+    }
+
+    voar () {
+        console.log('Pato voando');
+    }
+}
+
+class Galinha {
+    somCocorico () {
+        console.log('có-có-có-riiiii-có?');
+    }
+
+    ciscar () {
+        console.log('Galinha ciscando...');
+    }
+}
+
+class AdaptadorPato extends Galinha {
+
+}
+
+let patinho = new AdaptadorPato()
+
+patinho.somCocorico()
+patinho.voar()
+patinho.ciscar()
