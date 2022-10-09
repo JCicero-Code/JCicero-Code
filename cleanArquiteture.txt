@@ -1,0 +1,32 @@
+﻿class TextEditor {
+    constructor (array = []) {
+      this.array = array
+    }
+
+    insertLine(lineNumber, text) {
+        this.array[lineNumber] = text
+      }
+
+
+    save() {
+      console.table(this.array);
+    }
+
+    removeLine(lineNumber) {
+      this.array.splice(lineNumber, 1)
+    }
+}
+
+const primeiro = new TextEditor()
+
+// Adicionei 4 textos em posições diferentes no Array
+primeiro.insertLine(3, 'Olá mundo!')
+primeiro.insertLine(0, 'Cicero')
+primeiro.insertLine(1, 'Teste')
+primeiro.insertLine(2, 'Curso')
+
+// Removi o index 2 que guardava o texto "Curso", com isso quem vai assumir a sua posição é "Olá mundo!" que está na posição 3
+primeiro.removeLine(2)
+
+// Ao imprimir vai ter as posições 0, 1 e 2 com seus respectivos textos
+primeiro.save()
