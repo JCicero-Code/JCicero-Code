@@ -1,0 +1,17 @@
+Na primeira etapa realizamos a análise de requisitos junto ao cliente. É nesse momento que tratamos sobre as regras de negócio que devem ser identificadas, suas 
+
+necessidades e expectativas do cliente são passadas para o projetista.
+
+
+Na segunda fase o Projeto Conceitual se baseia nos detalhes de requisitos da etapa anterior. A partir disto geramos o esquema conceitual do banco de dados. O esquema conceitual é a visão ampla do banco de dados, uma descrição de alto nível da estrutura.
+
+Para descrever os esquemas conceituais são usado os modelos de Entidade-Relacionamento.
+
+
+Na terceira fase o Projeto Lógico é onde mapeamos o conceito dos modelos de entidade-relacionamento em objetivos de bancos de dados. Podemos dizer que nessa fase já podemos descrever a estrutura do banco de dados no nível do SGBD. Nesta fase criamos os modelos internos de bancos de dados, com detalhes sobre tabelas, relacionamentos, regras, metadados das colunas (tipo, tamanho, obrigatoriedade, ...), visões, etc.
+
+O projeto lógico é um esquema do banco de dados semelhante ao modelo conceitual, só que com mais detalhes do banco de dados e não apenas os conceitos.
+Na quarta fase considerada o encerramento dos passos. O Projeto Físico nesta etapa define-se mais detalhes técnicos da implementação do banco de dados, como a forma com o que os dados serão armazenados, scripts para a criação dos objetos lá no banco de dados como por exemplo as tabelas, visões, colunas, funções entre outros. Permissão de acesso de usuário também é implementado nessa fase. Esta etapa é fortemente ligada ao SGBD.
+
+
+
