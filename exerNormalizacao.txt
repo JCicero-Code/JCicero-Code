@@ -1,0 +1,63 @@
+﻿A normalização no processo de criação do banco de dados serve para organização de dados no determinado banco de dados. Essa organização pode ser a criação de tabelas e as relações entre as tabelas de acordo regras definidas para proteger os dados e tornar o banco mais seguro e limpo. Eliminando a redundância e a dependência inconsistente.
+
+Primeira Forma Normal
+
+Possui chave primária;
+Não possui grupos repetitivos;
+Seus atributos são atômicos.
+
+Na primeira forma normal devemos pegar o atributo que possui característica de chave primária, tornar todos atributos atômicos, levar  o grupo repetitivo para outra nova tabela, levando a chave primária da tabela na qual estava, para manter a ligação entre a tabela criada e a original. Essa nova tabela criada também deve está na forma normal.
+
+Exemplo:
+
+Tabela inicial (id_cliente, nomeCliente, fone1, fone2, endereco, id_produto, nomeProduto, preco, quantidade) ✗
+
+Cliente (id_cliente, nomeCliente, fone1, fone2, rua, bairro, cidade, estado) ✓
+
+Produto (id_cliente, id_produto, nomeProduto, preco, quantidade) ✓
+
+
+
+Segunda Forma Normal
+
+Podemos dizer que uma tabela se encontra na Segunda Forma Normal se:
+
+Está na primeira forma normal;
+Não possui dependências parciais da chave primária;
+Para chegar a segunda forma normal verifique se a chave primária dessa tabela é composta ou simples. Se for simples, já se encontra na segunda forma normal. Se for composta, verifique se todos os atributos da relação dependem de todos os atributos que compõem a chave primária. Por exemplo, se a chave primária é composta dos atributos A , B e o campo C em questão depende somente de B. Se sim, já está na segunda forma normal. Se não, pegue o atributo (C) que depende parcialmente da chave primária e crie uma nova tabela. Essa tabela terá como chave primária o campo da chave primária original que determinou o campo C (nesse exemplo é o B) e adicione como atributo simples da relação o C. Veja o exemplo abaixo: (Obs: ➙ significa “determina”, ou seja, define, indica, aponta)
+
+Aplicação:
+
+Cliente (cod_cliente, nome_cliente, tel1, tel2, rua, bairro, cidade, estado) ✓ (não possui chave primária composta)
+
+Produto (cod_cliente, cod_produto, nome_produto, preco, quantidade) ✗
+
+cod_produto ➙ nome_produto, preco (dependência parcial)
+
+cod_cliente, cod_produto ➙ quantidade (dependência total)
+
+Resp: Produto (cod_produto, nome_produto, preco) ✓
+
+Resp: Compra (cod_cliente, cod_produto, quantidade) ✓
+
+Terceira Forma Normal
+
+Podemos dizer que uma tabela se encontra na Terceira Forma Normal se:
+
+Está na segunda forma normal;
+Se nenhum dos campos foram determinados transitivamente pela chave primária.
+Para chegar a terceira forma normal verifique os campos que não são chave primária. Se algum desses campos não chave possuir dependência com outro campo não chave, então essa tabela não se encontra na terceira forma normal. Veja o exemplo abaixo:
+
+Carro (placa, modelo, km_rodados, cod_fabricante, nome_fabricante) ✗
+
+Placa, modelo ➙ km_rodados
+
+Placa, modelo ➙cod_fabricante
+
+Placa, modelo ➙ nome_fabricante
+
+Cod_frabricante ➙ nome_fabricante
+
+Carro (placa, modelo, kmRodados, cod_fabricante) ✓
+
+Fabricante (cod_fabricante, nome_fabricante) ✓
