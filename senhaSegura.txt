@@ -1,0 +1,4 @@
+﻿Senha forte
+
+Sabemos da importância da senha segura para evitar ataques aos nossos dados seja ele dados pessois ou os dados da empresa.
+Com isso para termos aquele tipo de senha segura e sem utilizar aquelas senhas manjadas que facilmente podem ser quebradas pelos invasores. Devemos criar essas senhas utilizando palavras e inúmeros e utilizar somente as iniciais ou a palavra contendo entre cada letra alguns caracteres especiais e números. Por exemplo a senha P3dπ3!r@. Traduzindo essa senha seria Pedreira. Misturando letras maiúsculas, minúsculas, números e caracteres especiais, como exclamação, @, &, $, # entre outros.
