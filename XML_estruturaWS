@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<soap:Envelope>
+  <soap:Header>
+
+  </soap:Header>
+
+  <soap:Body>
+    <app:CustomerCheck xmlns:app=...>
+      <Customer>
+        <Name>.....<\Name>
+        <Adress>.....<\Adress>
+        <PhoneNumber>.....<\PhoneNumber>
+      <\Customer>
+    <\app:CustomerCheck>
+  </soap:Body>
+
+</soap:Envelope>

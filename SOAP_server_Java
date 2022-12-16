@@ -1,0 +1,31 @@
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+import javax.xml.ws.Endpoint;
+
+@WebService
+public class MeuServidorSOAP {
+
+    @WebMethod
+    public String olaMundo() {
+        return "Olá, mundo!";
+    }
+
+    @WebMethod
+    public int soma(int a, int b) {
+        return a + b;
+    }
+
+    @WebMethod
+    public int subtracao(int a, int b) {
+        return a - b;
+    }
+
+    @WebMethod
+    public int multiplicacao(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        Endpoint.publish("http://localhost:8080/MeuServidorSOAP", new MeuServidorSOAP());
+    }
+}
