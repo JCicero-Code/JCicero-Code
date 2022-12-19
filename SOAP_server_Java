@@ -1,31 +1,23 @@
-import javax.jws.WebMethod;
-import javax.jws.WebService;
-import javax.xml.ws.Endpoint;
+O HTTP é um protocolo de comunicação entre sistemas computacionais  
+baseado no modelo cliente-servidor. Onde um faz a requisição de um dado e o 
+outro retorna a informação. Esse protocolo  troca as informações pela internet 
+utilizando alguns  métodos, sendo os principais deles GET, POST, PUT, PATCH e DELETE
 
-@WebService
-public class MyServerSOAP {
 
-    @WebMethod
-    public String olaUser() {
-      return "Olá, Usuário!";
-    }
+GET – Utilizado para  buscar algum dado
 
-    @WebMethod
-    public int somar(int a, int b) {
-      return a + b;
-    }
+POST – Usado para  salvar algum dado
 
-    @WebMethod
-    public int subtrair(int a, int b) {
-      return a - b;
-    }
+PUT – Usado para substituir algum dado
 
-    @WebMethod
-    public int multiplicar(int a, int b) {
-      return a * b;
-    }
+PATCH – Utilizado para  atualizar algum dado
 
-    public static void main(String[] args) {
-        Endpoint.publish("http://localhost:8080/MyServerSOAP", new MyServerSOAP());
-    }
-}
+DELETE – Utilizado para apagar algum dado
+
+
+WSDL significa Web Services Description Language, ele 
+serve para  descrever Web Services em formato XML no qual  
+vai usar SOAP como protocolo. Através do WSDL nós informamos ao 
+cliente como cada serviço em um end-point deve ser invocado, quais 
+parâmetros e tipos de dados de cada parâmetro é esperado, e 
+qual o tipo  de dado de retorno será enviado como resposta.
