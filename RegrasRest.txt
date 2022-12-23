@@ -1,0 +1,29 @@
+
+
+Cliente-servidor
+
+As aplica??es existentes no servidor e no cliente devem ser separadas. Esse princ¨ªpio REST trabalha com o conceito de que cliente e servidor devem ser isolados um do outro e ter permiss?o para desenvolver de forma independente.
+
+Sem estado
+
+As requisi??es s?o feitas de forma independente, ou seja, cada uma executa apenas uma determinada a??o. Com este princ¨ªpio REST, as APIs s?o sem estado, o que significa que as chamadas podem ser feitas independentemente umas das outras. 
+
+Cache: 
+
+API deve utilizar o cache para evitar chamadas recorrentes ao servidor. Os dados em uma resposta devem ser indiretamente ou categorizados como armazen¨¢veis ??ou n?o armazen¨¢veis ??em cache.
+
+
+Interface uniforme:
+
+Agrupa outros quatro conceitos em que determina que os recursos devem ser identificados, a manipula??o dos recursos deve ser por meio de representa??o, com mensagens autodescritivas e utilizar links para navegar pelo aplicativo. otimiza toda a arquitetura do sistema e aumenta a visibilidade das comunica??es. Para obter uma interface uniforme, v¨¢rios controles de arquitetura s?o necess¨¢rios para orientar o desempenho dos elementos dentro da arquitetura da API REST.
+
+Sistema em camada
+
+Devido ao seu sistema em camadas, um aplicativo tem melhor seguran?a, pois os componentes em cada camada n?o podem interagir fora da camada subsequente.
+Um sistema de arquitetura REST API em camadas tem maior estabilidade porque restringe o desempenho do componente.
+
+C¨®digo sob Demanda
+
+Permite que codifica??o ou applets sejam comunicados por meio da API usada no aplicativo.
+Uma defini??o da API REST permite estender a funcionalidade do cliente baixando e implementando a codifica??o na forma de applets ou scripts. Isso simplifica os clientes, diminuindo o n¨²mero de recursos essenciais a serem pr¨¦-implementados.
+
